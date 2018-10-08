@@ -1,10 +1,55 @@
 #container {
-  border: 2px solid grey;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   width: 360px;
-  margin: 0 auto;
+  margin: 100px auto;
+  background: #f7f7f7;
 }
 
 .completed {
   text-decoration: line-through;
   color: grey;
+}
+
+h1 {
+  background-color: #2980B9;
+  color: white;
+  margin: 0;
+  padding: 10px 10px 20px 20px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  background: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #2980B9;
+}
+
+input:focus {
+  background: white;
+  border: 3px solid #2980B9;
+  outline: none;
 }
